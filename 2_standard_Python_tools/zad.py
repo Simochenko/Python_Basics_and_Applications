@@ -15,6 +15,7 @@
 #     else:
 #         print(password, 'is correct')
 
+
 from simplecrypt import decrypt
 
 with open("encrypted.bin", "rb") as inp:
